@@ -1,0 +1,10 @@
+s=128
+i=0
+while i>=0:
+    if(str(s+i)==str(s+i)[::-1]):
+        print((s+i))
+        break
+    if(str(s-i)==str(s-i)[::-1]):
+        print((s-i))
+        break
+    i+=1
